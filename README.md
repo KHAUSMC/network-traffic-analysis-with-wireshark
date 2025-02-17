@@ -120,16 +120,18 @@ Now, I will filter for DNS traffic.
    ```
    - This lists all **DNS query and response traffic**.
 
-   ![DNS Filter Applied](images/dns_filter.png)
+   ![DNS Filter Applied](https://i.imgur.com/AZ2ZC66.png)
 
 2. **Inspecting a DNS Query**:
    - I will double-click the **first packet** and expand the **Domain Name System (query)** subtree.
    - The **website queried** should appear as `opensource.google.com`.
 
-   ![DNS Query](images/dns_query.png)
+   ![DNS Query](https://i.imgur.com/yLE9bWX.png)
 
 3. **Inspecting a DNS Response**:
    - I will double-click the **fourth packet** and expand **Answers** under **Domain Name System (query)**.
+  
+   ![DNS Query](https://i.imgur.com/3s1Q2li.png)  
 
 ---
 
