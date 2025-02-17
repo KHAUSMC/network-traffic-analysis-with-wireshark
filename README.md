@@ -93,13 +93,11 @@ I will now apply filters to isolate packets based on IP and MAC addresses.
    ```plaintext
    ip.src == 142.250.1.139
    ```
-   - Press **ENTER** to view packets **sent from** this IP.
 
 2. **Filtering by Destination IP**:
    ```plaintext
    ip.dst == 142.250.1.139
    ```
-   - Press **ENTER** to view packets **sent to** this IP.
 
 3. **Filtering by MAC Address**:
    ```plaintext
